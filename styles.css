@@ -27,3 +27,33 @@ li {
   padding-top: 150px;
   background-color: rgb(36, 145, 145);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: blue;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: 1;
+    padding: 40px 50px;
+    font-size: 28px;
+    color:rgb(3, 3, 16)
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(43, 31, 68);
+  font-size: 30px;
+  color: white;
+}
